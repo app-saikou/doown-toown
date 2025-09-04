@@ -1,16 +1,19 @@
 # Netlify headers configuration
 
-# JavaScript modules
+# JavaScript modules - Critical for MIME type fix
 /*.js
-  Content-Type: application/javascript
+  Content-Type: application/javascript; charset=utf-8
+
+/*.mjs
+  Content-Type: application/javascript; charset=utf-8
 
 # CSS files
 /*.css
-  Content-Type: text/css
+  Content-Type: text/css; charset=utf-8
 
-# Web manifest
+# Web manifest - Critical for PWA
 /site.webmanifest
-  Content-Type: application/manifest+json
+  Content-Type: application/manifest+json; charset=utf-8
 
 # Images
 /*.png
