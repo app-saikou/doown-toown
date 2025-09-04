@@ -3,5 +3,5 @@ Allow: /
 Allow: /blog
 Allow: /blog/*
 
-# サイトマップのURLを相対パスに変更
-Sitemap: /sitemap.xml
+# サイトマップのURLを絶対パスに変更
+Sitemap: https://doowntoown.netlify.app/sitemap.xml
